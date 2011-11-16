@@ -1,0 +1,43 @@
+/* a4ym */
+
+/*
+NOTES: Underscored items work for IE only.
+*/
+
+/*
+NAVIGATION
+---------------------------------------
+*/
+
+/*
+Positioning
+---------------------------------------
+*/
+
+	#navcontainer {  }
+	
+	#navlist li { display: inline; line-height: 38px; }
+	#navlist li a { display: block; float: left; }
+    #navlist li a { margin-left: 30px; }
+
+/*
+Colors
+---------------------------------------
+*/
+	#navlist { border-bottom: 1 px solid #CC0000; }
+	#navlist li#active a { color: #CC0000; }
+    #navlist li a, #footer a { color: #8F8F8F; }
+    
+    
+
+/*
+Text
+---------------------------------------
+*/
+    #navlist ul {  }
+    
+	#navlist li a { font-family: sans-serif; text-decoration: none; font-weight: 800; letter-spacing: 2px; font-size: 0.8em; }
+    
+    #navlist li a:hover, #footer a:hover { color: #CC0000; }
+
+    #footer a { text-decoration: none; }

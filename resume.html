@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang = "en" dir="ltr">
 <head>
 
-	<title>Avenue For Your Music - Home</title>
+	<title>Avenue For Your Music - Resum&#233;</title>
 
 	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 	<meta name="author" content="kszup" />
@@ -19,7 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="css/A4YM_ie.css" />
 	<![endif]-->
 <!-- ***SPECIFIC CSS FOR IE END*** -->
-        
+
 </head>
 <body>
 <div id="container">
@@ -29,36 +29,27 @@
 		<h1 id="title"><span>Avenue For Your Music</span></h1>
 		<div id="navcontainer">
 			<ul id="navlist">
-				<li id="active" ><a href="" title="Welcome">Home</a></li>
+				<li><a href="index.html" title="Welcome">Home</a></li>
 
 				<li><a href="blog/index.html">Blog</a></li>
-				<li><a href="resume.html">Resum&#233;</a></li>
+				<li id="active" ><a href="resume.html">Resum&#233;</a></li>
 				<li><a href="projects.html">Projects</a></li>
 			</ul>
 		</div><!--navcontainer end-->
 	</div>
     </div><!--pageheader end-->
     
-	<div id="main">  
-        <img id="panorama" src="images/BostonFromNorthEnd.jpg" alt="Boston panorama from a North End roof top." title="Downtown Boston from a North End roof top." />
-		
-    <div id="content">  
-        <h2>Welcome</h2>
-		<p>A slow revision of my website. Expect updates throughout November.</p>
+	<div id="main">
+        <img id="panorama" src="images/CommAveSummer.jpg" width="100%" height="" alt="Commonwealth Avenue looking west from BU Photonics Center." title="Commonwealth Avenue looking west from BU Photonics Center." />
+		<div id="content">
+				<h2>Resum&#233;</h2>
+				<p>
+					Konrad Szupinski<br />
+					<a href="mailto:szup@ave4yourmusic.com">szup@ave4yourmusic.com</a><br />
+					Brookline, MA<br />
+				</p>
+		<p>Currently being updated.</p>
     </div><!--content end-->
-    
-    <div id="right_column">
-        <div id="recent_posts">
-            <h2>Recent posts:</h2>
-            <ul>
-                % for post in bf.config.blog.posts[:5]:
-                    <li><a href="${post.path}">${post.title}</a></li>
-                % endfor
-            </ul>
-        </div>
-        <div id="twitter"></div>
-    </div><!--right_column end-->    
-
 	</div><!--main end-->	
 	<div id="footer">
 		<p>

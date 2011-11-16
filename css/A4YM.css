@@ -1,0 +1,80 @@
+/* A4YM */
+
+/*
+NOTES: Underscored items work for IE only.
+*/
+
+* { margin: 0; padding: 0; }
+li { list-style-type: none; }
+img { border: 0 none; }
+html{ overflow-y:scroll; }
+
+/*
+Positioning
+---------------------------------------
+*/
+	#container { width: 100%; margin-top: 0; }
+	#pageheader { height: 60px; width: 100%; }
+    #fit { margin-left: auto; margin-right: auto; max-width: 1024px; min-width: 480px; }
+        #title { float: left; margin: 10px 0 10px 30px; }
+        #navcontainer { float: right; margin: 10px 26px 10px 0px}
+        img#panorama { display: block; margin: 10px auto 10px auto; width: 90%; }
+    
+    #main { margin-left: auto; margin-right: auto; max-width: 1024px; min-width: 480px;}
+    
+    #content { margin: 30px 0 30px 30px; float: left;}
+        #content p { margin-bottom: 10px; }
+        #content ul li { margin-top: 10px; clear: both; }
+        #content .blog_post { max-width: 640px; min-width: 480px; }
+        #content .post_prose { margin-top: 10px; }
+        #content .post_prose p { padding-bottom: 15px; }
+        
+        #content #next, #content #previous { margin-top: 20px; }
+            
+        #right_column { float: right; margin: 30px 30px 30px 0; }
+        #updates { width: 400px; }
+        #twitter { display: block; margin-left: auto; margin-right: auto; width: 350px; }
+	#footer { clear: both; bottom: 0px; width: 100%; margin-right: auto; margin-left: auto; line-height: 20px; }
+        #footer p { padding-right: 30px; }
+/*
+Colors (borders, backgrounds,)
+---------------------------------------
+*/
+
+	#pageheader  {
+		/*background: -moz-linear-gradient(0% 100% 45deg, #CC0000, black); /* Boston University RED (Scarlet) */
+        background: black; border-bottom: 4px solid #CC0000; }
+    
+	#container {  }
+    img#panorama { border: 2px solid #8F8F8F; }
+    #footer { 
+        /*background: -moz-linear-gradient(0% 100% 45deg, #CC0000, black); color: white;*/
+        background: black; border-top: 2px solid #CC0000; }
+        
+/*
+Images
+---------------------------------------
+*/
+	
+
+
+/*
+Text
+---------------------------------------
+*/
+body { font-family: sans-serif; }
+h1#title { color: white; font-family: sans-serif; font-weight: normal; }
+h2.blog_post_title { font-size: 1.2em; }
+h3.blog_post_info { font-size: .8em; font-weight: normal; padding-left: 10px; }
+
+a { text-decoration: none; font-family: sans-serif; color: #8F8F8F; } 
+a:hover { color: #CC0000; }
+    #content #next a, #content #previous a { font-size: .8em; font-weight: bold; }
+
+h2.blog_post_title a { color: #CC0000; }    
+h2.blog_post_title a:hover { text-decoration: underline; }    
+
+#categories h2, #recent_posts h2 { text-align: right; font-size: 1em; }
+#categories ul li, #recent_posts ul li { font-size: 1em; padding: 5px 0 0 0; text-align: right; }
+
+#footer  p { text-align: right; font-size: 12px; font-type: "New Times Roman"; color: white;}

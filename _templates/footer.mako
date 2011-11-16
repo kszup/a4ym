@@ -1,12 +1,10 @@
 <p id="credits">
-Powered by <a href="http://www.blogofile.com">Blogofile</a>.<br/>
-<br/>
-RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a>
+Powered by <a href="http://www.blogofile.com">Blogofile</a> | RSS feeds for <a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Entries</a> | <a title="ave4yourmusic.com Sitemap" href="/sitemap.html">site map</a>
+
 % if bf.config.blog.disqus.enabled:
  and <a
 href="http://${bf.config.blog.disqus.name}.disqus.com/latest.rss">Comments</a>.
 % endif
-<br>
 </p>
 % if bf.config.blog.disqus.enabled:
 <script type="text/javascript">
